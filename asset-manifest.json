@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weeding-india/static/css/main.7d5ef5cc.css",
-    "main.js": "/weeding-india/static/js/main.4ca2d23d.js",
-    "static/js/787.7a7f2425.chunk.js": "/weeding-india/static/js/787.7a7f2425.chunk.js",
-    "static/media/India.png": "/weeding-india/static/media/India.f296abbb965e77379cde.png",
-    "index.html": "/weeding-india/index.html",
-    "main.7d5ef5cc.css.map": "/weeding-india/static/css/main.7d5ef5cc.css.map",
-    "main.4ca2d23d.js.map": "/weeding-india/static/js/main.4ca2d23d.js.map",
-    "787.7a7f2425.chunk.js.map": "/weeding-india/static/js/787.7a7f2425.chunk.js.map"
+    "main.css": "/wedding-india/static/css/main.541076ba.css",
+    "main.js": "/wedding-india/static/js/main.4bd98a11.js",
+    "static/js/787.7a7f2425.chunk.js": "/wedding-india/static/js/787.7a7f2425.chunk.js",
+    "static/media/India.png": "/wedding-india/static/media/India.f296abbb965e77379cde.png",
+    "index.html": "/wedding-india/index.html",
+    "main.541076ba.css.map": "/wedding-india/static/css/main.541076ba.css.map",
+    "main.4bd98a11.js.map": "/wedding-india/static/js/main.4bd98a11.js.map",
+    "787.7a7f2425.chunk.js.map": "/wedding-india/static/js/787.7a7f2425.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d5ef5cc.css",
-    "static/js/main.4ca2d23d.js"
+    "static/css/main.541076ba.css",
+    "static/js/main.4bd98a11.js"
   ]
 }
