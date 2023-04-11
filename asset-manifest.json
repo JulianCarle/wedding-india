@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding-india/static/css/main.541076ba.css",
-    "main.js": "/wedding-india/static/js/main.4bd98a11.js",
-    "static/js/787.7a7f2425.chunk.js": "/wedding-india/static/js/787.7a7f2425.chunk.js",
-    "static/media/India.png": "/wedding-india/static/media/India.f296abbb965e77379cde.png",
-    "index.html": "/wedding-india/index.html",
-    "main.541076ba.css.map": "/wedding-india/static/css/main.541076ba.css.map",
-    "main.4bd98a11.js.map": "/wedding-india/static/js/main.4bd98a11.js.map",
-    "787.7a7f2425.chunk.js.map": "/wedding-india/static/js/787.7a7f2425.chunk.js.map"
+    "main.css": "/static/css/main.837cb489.css",
+    "main.js": "/static/js/main.f5b0f6e7.js",
+    "static/js/787.7a7f2425.chunk.js": "/static/js/787.7a7f2425.chunk.js",
+    "static/media/India.png": "/static/media/India.f296abbb965e77379cde.png",
+    "index.html": "/index.html",
+    "main.837cb489.css.map": "/static/css/main.837cb489.css.map",
+    "main.f5b0f6e7.js.map": "/static/js/main.f5b0f6e7.js.map",
+    "787.7a7f2425.chunk.js.map": "/static/js/787.7a7f2425.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.541076ba.css",
-    "static/js/main.4bd98a11.js"
+    "static/css/main.837cb489.css",
+    "static/js/main.f5b0f6e7.js"
   ]
 }
