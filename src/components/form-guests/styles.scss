@@ -1,0 +1,56 @@
+
+.title-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  box-shadow: 0 0 10px #a3a3a3;
+  background-image: url('../../images/flags/India.png');
+  background-size: contain;
+}
+
+.name-firstname-container {
+  display: flex;
+  align-items: center;
+  
+  .text-input-container {
+    margin-right: 20px !important;
+  }
+ 
+  input { 
+    width: 270px;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+}
+
+.button-validate-form-guests {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .name-firstname-container {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+
+      .text-input-container { 
+        width: 100%;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      input {
+        width: 100%;
+      }
+  }
+}
+
