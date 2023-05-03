@@ -22,12 +22,6 @@ export const handleSubmit = async (
     otherDetails
   } = formValues;
 
-  let isEmptyField = false;
-
-  if (isEmptyField) {
-    return;
-  }
-
   let templateParams = {
     email: email,
     name: `${firstName} ${name}`,

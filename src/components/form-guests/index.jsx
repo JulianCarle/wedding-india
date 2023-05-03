@@ -33,6 +33,9 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
   const isParticipating =
     formValues.participation === 'Oui' || formValues.participation === 'Yes';
 
+  const isNotParticipating =
+    formValues.participation === 'Non' || formValues.participation === 'No';
+
   const isAccompanied =
     formValues.accompanied === 'Oui' || formValues.accompanied === 'Yes';
 
@@ -85,6 +88,15 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
         options={optionsList([basics.yes, basics.no])}
         defaultText={basics.selectOption}
       />
+      {isNotParticipating && (
+        <TextareaInput
+          name="otherDetails"
+          value={formValues.otherDetails}
+          onChange={handleChange}
+          textLabel={labels.otherDetails}
+          placeholder={basics.detailsExemple}
+        />
+      )}
       {isParticipating && (
         <>
           <SelectInput
