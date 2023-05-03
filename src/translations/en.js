@@ -2,13 +2,15 @@ export const en = {
   basics: {
     yes: 'Yes',
     no: 'No',
-    name: 'Name',
+    name: 'Lastname',
     firstName: 'Firstname',
-    firstnameAndName: 'Name and firstname :',
+    firstnameAndName: 'Lastname and firstname :',
     selectOption: '-- Select your answer --',
     detailsExemple: 'Examples: number of children, other guest(s), meal details ...',
     sendForm: 'Send form',
-    successMessage: 'Thank you, the form has been sent successfully !'
+    successMessage: 'Thank you, the form has been sent successfully !',
+    comments: 'Comment(s) :',
+    optional: 'Optional',
   },
   formGuests: {
     title: 'Information form',

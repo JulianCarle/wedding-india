@@ -93,8 +93,8 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
           name="otherDetails"
           value={formValues.otherDetails}
           onChange={handleChange}
-          textLabel={labels.otherDetails}
-          placeholder={basics.detailsExemple}
+          textLabel={basics.comments}
+          placeholder={basics.optional}
         />
       )}
       {isParticipating && (

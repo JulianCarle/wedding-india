@@ -8,7 +8,9 @@ export const fr = {
     selectOption: '-- Sélectionnez votre réponse --',
     detailsExemple: 'Exemples: nombre d\'enfant(s), autre(s) invité(s), allergies ...',
     sendForm: 'Envoyer le formulaire',
-    successMessage: 'Merci, le formulaire a été envoyé avec succès !'
+    successMessage: 'Merci, le formulaire a été envoyé avec succès !',
+    comments: 'Commentaire(s) :',
+    optional: 'Facultatif',
   },
   formGuests: {
     title: 'Questionnaire d\'informations',
