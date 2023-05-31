@@ -50,8 +50,16 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
 
   return (
     <form
+      className="form1"
       onSubmit={(e) =>
-        handleSubmit(e, formValues, setFormValues, setIsSuccess, initialValues, isValid)
+        handleSubmit(
+          e,
+          formValues,
+          setFormValues,
+          setIsSuccess,
+          initialValues,
+          isValid
+        )
       }
     >
       <div className="name-firstname-container">

@@ -31,9 +31,9 @@ export const en = {
     formTravel: {
       title: 'Travel form',
       labels: {
-        company: 'Outbound airline:',
-        flightNumber: 'Outbound flight number:',
-        arrivalDay: 'Day of arrival:',
+        company: 'Airline company:',
+        flightNumber: 'Flight number:',
+        arrivalDay: 'Arrival day:',
         arrivalHour: 'Arrival time:',
         departureDay: 'Departure day:',
         departureHour: 'Departure time:',

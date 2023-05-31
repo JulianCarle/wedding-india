@@ -45,6 +45,7 @@ const FormTravel = ({ translationTexts, setIsSuccess }) => {
 
   return (
     <form
+      className="form2"
       onSubmit={(e) =>
         handleSubmit(e, formValues, setFormValues, setIsSuccess, initialValues)
       }

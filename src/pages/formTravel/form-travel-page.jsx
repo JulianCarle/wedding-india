@@ -7,7 +7,7 @@ const FormTravelPage = () => {
   const [isSuccess, setIsSuccess] = useState(null);
 
   return (
-    <div className="FormGuestsPage">
+    <div className="FormTravelPage">
       <div className="title-container-fr">
         <div className="blue"></div>
         <div className="white">
