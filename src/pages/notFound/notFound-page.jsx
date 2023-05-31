@@ -8,7 +8,9 @@ const NotFoundPage = () => {
   return (
     <div className="container-notFound">
       <p>{translationTexts.notFound.notExist}</p>
-      <a href="/#/guests-form">{translationTexts.notFound.link}</a>
+      <a href="/#/guests-form">{translationTexts.notFound.link1}</a>
+      <br/><br/>
+      <a href="/#/travel-form">{translationTexts.notFound.link2}</a>
     </div>
   );
 };

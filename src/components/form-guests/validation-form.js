@@ -5,7 +5,8 @@ export const handleSubmit = async (
   formValues,
   setFormValues,
   setIsSuccess,
-  initialValues
+  initialValues,
+  isValid
 ) => {
   e.preventDefault();
 
@@ -34,15 +35,17 @@ export const handleSubmit = async (
   };
 
   try {
-    await emailjs.send(
-      'service_kg6jo0z',
-      'template_wr7fdr8',
-      templateParams,
-      'pFDL2Nkh8kizWmeB-'
-    );
+    if (isValid) {
+      await emailjs.send(
+        'service_kg6jo0z',
+        'template_wr7fdr8',
+        templateParams,
+        'pFDL2Nkh8kizWmeB-'
+      );
 
-    setFormValues(initialValues);
-    setIsSuccess(true);
+      setFormValues(initialValues);
+      setIsSuccess(true);
+    }
   } catch (err) {
     setIsSuccess(false);
     console.error(err);

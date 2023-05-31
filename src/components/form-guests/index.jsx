@@ -27,8 +27,8 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
     setFormValues(initialValues);
   }, [translationTexts]);
 
-  const { labels } = translationTexts.formGuests;
-  const { basics } = translationTexts;
+  const { labels } = translationTexts.forms.formGuests;
+  const { basics } = translationTexts.forms;
 
   const isParticipating =
     formValues.participation === 'Oui' || formValues.participation === 'Yes';
@@ -51,7 +51,7 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
   return (
     <form
       onSubmit={(e) =>
-        handleSubmit(e, formValues, setFormValues, setIsSuccess, initialValues)
+        handleSubmit(e, formValues, setFormValues, setIsSuccess, initialValues, isValid)
       }
     >
       <div className="name-firstname-container">
@@ -75,7 +75,7 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
         name="email"
         value={formValues.email}
         onChange={handleChange}
-        textLabel={labels.email}
+        textLabel={basics.email}
         placeholder="email"
         type="email"
       />
@@ -148,7 +148,7 @@ const FormGuests = ({ translationTexts, setIsSuccess }) => {
             name="otherDetails"
             value={formValues.otherDetails}
             onChange={handleChange}
-            textLabel={labels.otherDetails}
+            textLabel={basics.otherDetails}
             placeholder={basics.detailsExemple}
           />
         </>
