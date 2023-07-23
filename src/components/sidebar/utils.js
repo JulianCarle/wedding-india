@@ -12,6 +12,10 @@ export const SidebarData = [
     label: 'COMMODITÉS'
   },
   {
+    value: '/RSVP',
+    label: 'RSVP'
+  },
+  {
     value: '/contacts',
     label: 'CONTACTS'
   }

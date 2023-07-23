@@ -7,7 +7,7 @@ import Alida from '../../images/contacts/alida.png';
 export const ContactsPage = () => {
   return (
     <div>
-      <h2 className="title-page">PERSONNES À CONTACTER</h2>
+      <h2 className="title-page">Personnes pouvant être contactées pour toutes demandes d&apos;informations</h2>
       <Contact
         firstName="Jérome"
         // image={}

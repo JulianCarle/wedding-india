@@ -13,7 +13,7 @@ const HomePage = () => {
       <div className="counter block-grey">
         <Counter />
       </div>
-      <div className="mr-mrs block-white">white</div>
+      <div className="mr-mrs block-white"></div>
       <div className="block-grey shadow-top">
         <Resume />
       </div>

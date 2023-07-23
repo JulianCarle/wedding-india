@@ -3,7 +3,8 @@ import React from 'react';
 import './styles.scss';
 
 export const BUTTON_TYPE_CLASSES = {
-  validateButton: 'button-validate'
+  validateButton: 'button-validate',
+  orangeButton: 'orange-button'
 };
 
 const Button = ({

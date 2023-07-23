@@ -5,10 +5,11 @@ import ContactsPage from './pages/contacts';
 import ConveniencesPage from './pages/conveniences';
 import FormGuestsPage from './pages/formGuests/form-guests-page';
 import FormTravelPage from './pages/formTravel/form-travel-page';
+import HomePage from './pages/home';
 import { NotAccessible } from './pages/NotAccessible';
 import NotFoundPage from './pages/notFound/notFound-page';
-import ProgramPage from './pages/program';
-import HomePage from './pages/home';
+import SchedulePage from './pages/schedule';
+import RSVPPage from './pages/RSVP';
 
 const Router = () => {
   const { screenWidth } = useWindowSize();
@@ -19,17 +20,22 @@ const Router = () => {
         path="/accueil"
         element={screenWidth < 600 ? <HomePage /> : <NotAccessible />}
       />
-      <Route
-        path="/contacts"
-        element={screenWidth < 600 ? <ContactsPage /> : <NotAccessible />}
-      />
+
       <Route
         path="/commodités"
         element={screenWidth < 600 ? <ConveniencesPage /> : <NotAccessible />}
       />
       <Route
         path="/programme"
-        element={screenWidth < 600 ? <ProgramPage /> : <NotAccessible />}
+        element={screenWidth < 600 ? <SchedulePage /> : <NotAccessible />}
+      />
+      <Route
+        path="/RSVP"
+        element={screenWidth < 600 ? <RSVPPage /> : <NotAccessible />}
+      />
+      <Route
+        path="/contacts"
+        element={screenWidth < 600 ? <ContactsPage /> : <NotAccessible />}
       />
       <Route path="/guests-form" element={<FormGuestsPage />} />
       <Route path="/travel-form" element={<FormTravelPage />} />

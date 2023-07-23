@@ -9,11 +9,18 @@
   box-shadow: 0 0 10px #a3a3a3;
 
   &.button-validate {
-    background-color: #00af00;
+    background-color: #138808;
     color: white;
-
     &:hover {
-      background-color: #3d9e3d;
+      background-color: #48c248;
+    }
+  }
+
+  &.orange-button {
+    background-color: #ff8902;
+    color: white;
+    &:hover {
+      background-color: rgb(255, 179, 36);
     }
   }
 

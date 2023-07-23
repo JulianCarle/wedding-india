@@ -38,13 +38,12 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <div className="menu-bars">
-        <BsList onClick={showSidebar} />
-      </div>
       <div className="image-title-site">
         <img src={titleSite} alt="title" />
       </div>
-
+      <div className="menu-bars">
+        <BsList onClick={showSidebar} />
+      </div>
       <div className={sidebar ? 'nav-menu active' : 'nav-menu'}>
         <div className="sidebar-open-container" onClick={showSidebar}>
           <div className="close-button">

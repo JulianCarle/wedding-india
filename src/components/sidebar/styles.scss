@@ -4,13 +4,15 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px;
 
   .image-title-site {
     min-width: 200px;
   }
+  
   .image-title-site img {
     position: absolute;
-    right: 8px;
+    left: 8px;
     top: 0px;
     height: 80px;
     width: 200px;
@@ -19,21 +21,22 @@
 
 .sidebar {
   display: flex;
+  width: 100%;
 
   .menu-bars {
     height: 40px;
     display: flex;
-    justify-content: flex-start;
     color: #000;
     font-size: 40px;
-    margin: auto 0 auto 16px;
+    margin: auto 16px auto auto;
+
     &:hover {
       cursor: pointer;
     }
   }
 
   .nav-menu {
-    z-index: 1;
+    z-index: 9;
     display: flex;
     position: fixed;
     height: 100%;
@@ -94,11 +97,7 @@
 @media screen and (max-width: 350px) {
   .sidebar-container {
     .image-title-site img {
-      position: fixed;
-      right: 8px;
-      top: 0px;
-      height: 11vh;
-      width: 200px;
+      visibility: hidden;
     }
   }
 }
