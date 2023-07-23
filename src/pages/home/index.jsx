@@ -6,7 +6,7 @@ import './styles.scss';
 
 const HomePage = () => {
   return (
-    <div className="home">
+    <div className="home margin85">
       <div>
         <ImageSlider />
       </div>

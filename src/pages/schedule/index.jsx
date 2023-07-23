@@ -3,8 +3,8 @@ import TimelineSchedule from '../../components/timelineSchedule';
 
 const SchedulePage = () => {
   return (
-    <div>
-      <h2 className="title-page">Programme du mariage</h2>
+    <div className="margin130">
+      <h2 className="title-page nm">Programme</h2>
       <TimelineSchedule />
     </div>
   );

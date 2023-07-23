@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 import titleSite from '../../images/Aurelia-et-Julian.png';
 import './styles.scss';
 import { SidebarData } from './utils';
+
+const handleScrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -20,7 +24,10 @@ function Sidebar() {
     return (
       <div
         key={link.label}
-        onClick={() => onNavigateHandler(link.value)}
+        onClick={() => {
+          handleScrollToTop();
+          onNavigateHandler(link.value);
+        }}
         className="sidebar-link-category"
       >
         {link.label}
@@ -36,9 +43,34 @@ function Sidebar() {
     body.style.overflow = 'auto';
   }
 
+  const nav = useRef();
+
+  useEffect(() => {
+    let oldScrollY;
+
+    const handleScroll = () => {
+      let st = window.scrollY;
+
+      if (oldScrollY < st && oldScrollY > 10) {
+        nav.current.classList.add('scrollDown');
+      } else if (oldScrollY > st) {
+        nav.current.classList.remove('scrollDown');
+      }
+      oldScrollY = st;
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="sidebar">
-      <div className="image-title-site">
+    <div ref={nav} className="sidebar">
+      <div
+        onClick={() => onNavigateHandler('/accueil')}
+        className="image-title-site"
+      >
         <img src={titleSite} alt="title" />
       </div>
       <div className="menu-bars">

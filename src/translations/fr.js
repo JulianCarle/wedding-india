@@ -1,6 +1,7 @@
 export const fr = {
   forms: {
     basics: {
+      language: 'Choix de la langue:',
       yes: 'Oui',
       no: 'Non',
       name: 'Nom',

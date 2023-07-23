@@ -7,7 +7,7 @@ const FormGuestsPage = () => {
   const [isSuccess, setIsSuccess] = useState(null);
 
   return (
-    <div className="FormGuestsPage">
+    <div className="FormGuestsPage margin85">
       <div className="title-container">
         <h1>{translationTexts.forms.formGuests.title}</h1>
       </div>

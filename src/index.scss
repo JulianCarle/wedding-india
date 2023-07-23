@@ -36,10 +36,18 @@
   margin: unset;
 }
 
+.margin130 {
+  margin-top: 130px;
+}
+
+.margin85 {
+  margin-top: 85px;
+}
+
 h1, h2, h3, h4, h5 {
-  color: #138808;
-  font-family: 'Playfair Display';
-  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 form {

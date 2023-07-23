@@ -9,10 +9,9 @@ import home from '../../images/conveniences/home.jpg';
 
 const ConveniencesPage = () => {
   return (
-    <div>
+    <div className='margin130'>
       <h2 className="title-page">
         Adresses utiles durant votre séjour à Pondicherry
-        {/* ADRESSES UTILES DURANT VOTRE SÉJOUR À PONDICHERRY */}
       </h2>
       <Convenience
         title="Notre adresse"

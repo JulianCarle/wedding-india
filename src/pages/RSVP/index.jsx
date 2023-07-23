@@ -11,7 +11,7 @@ export const RSVPPage = () => {
   };
 
   return (
-    <div className="rsvp">
+    <div className="rsvp margin85">
       <div className="rsvp-box">
         <div className="title-RSVP">RSVP</div>
         <div className="title-RSVP">Mariage d&apos;Aurélia et Julian</div>

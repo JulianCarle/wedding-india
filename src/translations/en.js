@@ -1,6 +1,7 @@
 export const en = {
   forms: {
     basics: {
+      language: 'Choice of the language:',
       yes: 'Yes',
       no: 'No',
       name: 'Lastname',
