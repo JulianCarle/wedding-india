@@ -4,6 +4,10 @@ export const SidebarData = [
     label: 'ACCUEIL'
   },
   {
+    value: '/our-story',
+    label: 'NOTRE HISTOIRE'
+  },
+  {
     value: '/programme',
     label: 'PROGRAMME'
   },

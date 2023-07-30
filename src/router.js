@@ -8,8 +8,9 @@ import FormTravelPage from './pages/formTravel/form-travel-page';
 import HomePage from './pages/home';
 import { NotAccessible } from './pages/NotAccessible';
 import NotFoundPage from './pages/notFound/notFound-page';
-import SchedulePage from './pages/schedule';
 import RSVPPage from './pages/RSVP';
+import SchedulePage from './pages/schedule';
+import OurStory from './pages/our-story';
 
 const Router = () => {
   const { screenWidth } = useWindowSize();
@@ -19,6 +20,10 @@ const Router = () => {
       <Route
         path="/accueil"
         element={screenWidth < 600 ? <HomePage /> : <NotAccessible />}
+      />
+      <Route
+        path="/our-story"
+        element={screenWidth < 600 ? <OurStory /> : <NotAccessible />}
       />
 
       <Route

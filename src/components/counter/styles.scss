@@ -5,21 +5,20 @@
   text-align: center;
   margin: auto;
 
-  .date {
+  .date-counter {
     margin: unset;
     margin-top: 56px;
     font-size: 40px;
     font-family: 'Alex Brush', sans-serif;
-    font-weight: 400;
   }
 
-  .title {
+  .title-counter {
     font-size: 40px;
     margin-bottom: 16px;
   }
 
   .adresse {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
 
   .countdown-section {
@@ -34,7 +33,6 @@
 
     p {
       margin: 8px auto;
-      font-weight: bold;
     }
   }
 
@@ -46,16 +44,16 @@
   }
 }
 
-.image-flors {
+.img-flowers {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
-  max-height: 100%;
-  transform: translateY(-10px);
+  // max-width: 100%;
+  // max-height: 100%;
+  // transform: translateY(10px);
   img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 320px;
+    height: 113px;
   }
 }

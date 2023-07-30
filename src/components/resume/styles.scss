@@ -8,12 +8,13 @@
   background-repeat: no-repeat;
   background-position: left;
 
-  .resume {
+  .resume-text-container {
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80%;
+    height: 85%;
     width: 80%;
     border-radius: 0;
     background-color: #fff;
@@ -21,15 +22,16 @@
 
   p {
     text-align: center;
-    color: rgb(156, 156, 156);
-    font-size: 20px;
+    color: #000;
+    font-size: 18px;
+    margin: 16px 0;
   }
 
   .title {
     line-height: 60px;
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 40px;
     font-family: 'Alex Brush', sans-serif;
     margin-bottom: 16px;
+    text-align: center;
   }
 }

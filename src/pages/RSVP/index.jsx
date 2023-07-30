@@ -15,7 +15,7 @@ export const RSVPPage = () => {
       <div className="rsvp-box">
         <div className="title-RSVP">RSVP</div>
         <div className="title-RSVP">Mariage d&apos;Aurélia et Julian</div>
-        <div className="text-RSVP">
+        <div>
           Répondez à ces deux formulaires afin d&apos;organiser votre venue
         </div>
         <div className="button-validate-form-guests">

@@ -2,9 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display&display=swap');
 
 .App {
-  font-family: 'Roboto', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  // min-width: 600px;
+
+  font-family: 'Playfair Display';
   color: #000;
-  font-weight: 600;
+  font-weight: 400;
   min-width: 400px;
   margin: -10px;
 
@@ -44,10 +47,27 @@
   margin-top: 85px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 30px;
+}
+
+.title-page {
+  text-align: center;
+  font-size: 40px;
+  margin: 32px 32px 32px 32px;
+  font-family: 'Alex Brush', sans-serif;
+  font-weight: 400;
+}
+
+.description-text {
+  text-align: center;
+  margin: 0 0 32px 0;
 }
 
 form {
@@ -67,7 +87,7 @@ form {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     background-color: #fff;
-    border: 1px solid rgb(98, 0, 0);
+    border: 1px solid rgb(201, 201, 201);
     border-radius: 5px;
     margin-top: 20px;
 

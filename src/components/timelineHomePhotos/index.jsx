@@ -97,8 +97,8 @@ export const TimelinePhotos = () => {
           icon={<GiCherish />}
         >
           <img src={img5} alt="img" />
-          <h4 className="vertical-timeline-element-subtitle">Chilly-Mazarin</h4>
-          <p>Le mariage civil à la mairie</p>
+          <h4 className="vertical-timeline-element-subtitle">Mairie de Chilly-Mazarin</h4>
+          <p>Nous nous sommes dit oui! Officiellement mariés!</p>
         </VerticalTimelineElement>
 
         {/* <VerticalTimelineElement

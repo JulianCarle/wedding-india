@@ -3,7 +3,6 @@ import BrideAndGroom from '../../components/bride-and-groom';
 import Counter from '../../components/counter';
 import ImageSlider from '../../components/imageSlider';
 import Resume from '../../components/resume';
-import TimelinePhotos from '../../components/timelineHomePhotos';
 import './styles.scss';
 
 const HomePage = () => {
@@ -18,13 +17,9 @@ const HomePage = () => {
       <div className="mr-mrs block-white bride-and-groom">
         <BrideAndGroom />
       </div>
-      <div className="block-grey shadow-top">
+      <div className="resume block-grey shadow-top">
         <Resume />
       </div>
-      <div className="block-grey">
-        <TimelinePhotos />
-      </div>
-      <div className="block-grey"></div>
     </div>
   );
 };

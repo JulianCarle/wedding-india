@@ -1,13 +1,18 @@
 import React from 'react';
 import Contact from '../../components/contact';
-import './styles.scss';
-import William from '../../images/contacts/williian.png';
 import Alida from '../../images/contacts/alida.png';
+import William from '../../images/contacts/williian.png';
+import './styles.scss';
 
 export const ContactsPage = () => {
   return (
-    <div className='margin130'>
-      <h2 className="title-page">Personnes pouvant être contactées pour toutes demandes d&apos;informations</h2>
+    <div className="margin130">
+      <h2 className="title-page">Contacts</h2>
+
+      <p className='description-text'>
+        Personnes pouvant être contactées pour toutes demandes
+        d&apos;informations
+      </p>
       <Contact
         firstName="Jérome"
         // image={}

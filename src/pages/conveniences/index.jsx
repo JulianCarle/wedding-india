@@ -1,24 +1,25 @@
 import React from 'react';
 import Convenience from '../../components/convenience';
 import change from '../../images/conveniences/change.png';
-import hospital from '../../images/conveniences/hopital.png';
-import nehruStreet from '../../images/conveniences/nehruStreet.png';
-import mall from '../../images/conveniences/mall.png';
-import pothys from '../../images/conveniences/pothys.png';
 import home from '../../images/conveniences/home.jpg';
+import hospital from '../../images/conveniences/hopital.png';
+import mall from '../../images/conveniences/mall.png';
+import nehruStreet from '../../images/conveniences/nehruStreet.png';
+import pothys from '../../images/conveniences/pothys.png';
 
 const ConveniencesPage = () => {
   return (
-    <div className='margin130'>
-      <h2 className="title-page">
+    <div className="margin130">
+      <h2 className="title-page">Adresses</h2>
+
+      <p className="description-text">
         Adresses utiles durant votre séjour à Pondicherry
-      </h2>
+      </p>
       <Convenience
         title="Notre adresse"
         adresse="37, Tippu Sahib Street, MG Road Area, Puducherry, 605001, Inde"
         link="https://goo.gl/maps/QryHgxsUcTERxMys9"
         image={home}
-
       />
       <div className="separator-line-one"></div>
       <Convenience

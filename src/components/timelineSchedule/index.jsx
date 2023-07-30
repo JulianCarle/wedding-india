@@ -8,7 +8,7 @@ const TimelineSchedule = () => {
       <Timeline lineColor={'#ddd'}>
         <TimelineItem
           key="001"
-          dateText="18/08/2023 – Soirée"
+          dateText="18/08/2023 – Soirée Villa"
           dateInnerStyle={{
             background: '#ff8902',
             color: '#fff',
@@ -22,18 +22,16 @@ const TimelineSchedule = () => {
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#ff8902' }}>Title, Company</h3>
+          <h3 style={{ color: '#ff8902' }}>Let&apos;s party !!!</h3>
           <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex
-            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
-            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
-            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
-            qui duis Lorem est.
+            Soirée à la villa à partir de 19h afin de nous retrouver avant la
+            réception et tous nous rencontrer.
           </p>
+          <p>Comment s&apos;habiller ? Contexte informel, comme vous voulez.</p>
         </TimelineItem>
         <TimelineItem
           key="002"
-          dateText="21/08/2023 - Réception"
+          dateText="21/08/2023 - Église / Réception"
           dateInnerStyle={{
             background: '#138808',
             color: '#fff',
@@ -47,13 +45,38 @@ const TimelineSchedule = () => {
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#138808' }}>Title, Company</h3>
+          <h3 style={{ color: '#138808' }}>Jour J</h3>
+          <p className="title-timeline">
+            13h00 : Cérémonie religieuse à l&apos;Église Notre-Dame Des Anges de
+            Pondicherry.
+          </p>
+          <p>Veuillez arriver pour 12h45</p>
           <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex
-            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
-            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
-            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
-            qui duis Lorem est.
+            Comment s&apos;habiller ? De préférence à l&apos;occidental, étant
+            donné que nous serons en costume et robe de mariée, mais vous pouvez
+            toujours vous faire un kiff et venir en tenue indienne.
+          </p>
+          <p className="title-timeline">
+            16h00 (optionnel): Départ des navettes pour le K resort
+          </p>
+          <p>
+            Point de départ: l&apos;Église Notre-Dame Des Anges de Pondicherry
+          </p>
+          <p>Les invités ont la possibilité de venir par leurs propres moyens</p>
+          <p className="title-timeline">
+            16h30 : Accueil des invités au K Resort
+          </p>
+          <p>
+            Check-in des cottages: vous aurez un peu de temps pour récupérer vos
+            clés, déposer vos affaires, vous raffraîchir et vous préparer dans
+            votre cottage dans lequel vous passerez la nuit.
+          </p>
+          <p>
+            Comment s&apos;habiller ? C&apos;est l&apos;heure de nous montrer
+            vos plus belles tenues indiennes !
+          </p>
+          <p className="title-timeline">
+            18h00: Cocktail / début de la réception.
           </p>
         </TimelineItem>
         <TimelineItem
@@ -84,7 +107,7 @@ const TimelineSchedule = () => {
         </TimelineItem>
         <TimelineItem
           key="004"
-          dateText="21/08/2023 - Auroville"
+          dateText="23/08/2023 - Auroville"
           dateInnerStyle={{
             background: '#ff6a5f',
             color: '#fff',
@@ -115,7 +138,7 @@ const TimelineSchedule = () => {
         </TimelineItem>
         <TimelineItem
           key="005"
-          dateText="21/08/2023 - Mahabalipuram"
+          dateText="24/08/2023 - Mahabalipuram"
           dateInnerStyle={{
             background: '#986c06',
             color: '#fff',

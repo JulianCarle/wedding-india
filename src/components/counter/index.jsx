@@ -34,9 +34,9 @@ const Counter = () => {
 
   return (
     <div className="counter-container">
-      <p className="date">Lundi 21 Août 2023</p>
-      <p className="title bottom-text nm">K Resort</p>
-      <p className="adresse bottom-text nm">
+      <p className="date-counter">Lundi 21 Août 2023</p>
+      <p className="title-counter bottom-text nm">K Resort</p>
+      <p className="adresse bottom-text">
         No 1, Dr. M.D.K. Kuthalingam Salai Ranganathapuram, SH 49, Koonimedu,
         Tamil Nadu 604303, Inde
       </p>
@@ -57,8 +57,8 @@ const Counter = () => {
         <p>seconde(s)</p>
       </div>
 
-      <div className="image-flors">
-        <img src={flowers} alt="flors" />
+      <div className="img-flowers">
+        <img src={flowers} alt="flowers-img" />
       </div>
     </div>
   );
