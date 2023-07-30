@@ -1,7 +1,7 @@
 import moment from 'moment';
 import React, { useEffect, useState } from 'react';
 import './styles.scss';
-import flors from '../../images/welcome/green-flower.png';
+import flowers from '../../images/home/green-flower.png';
 
 const Counter = () => {
   const endDate = moment('2023-08-21');
@@ -58,7 +58,7 @@ const Counter = () => {
       </div>
 
       <div className="image-flors">
-        <img src={flors} alt="flors" />
+        <img src={flowers} alt="flors" />
       </div>
     </div>
   );

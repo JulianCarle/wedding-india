@@ -72,7 +72,7 @@ const TimelineSchedule = () => {
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#0055a4' }}>Visite d&apos;Oroville</h3>
+          <h3 style={{ color: '#0055a4' }}>Visite</h3>
 
           <p>
             Est incididunt sint eu minim dolore mollit velit velit commodo ex
@@ -84,7 +84,7 @@ const TimelineSchedule = () => {
         </TimelineItem>
         <TimelineItem
           key="004"
-          dateText="21/08/2023 - Oroville"
+          dateText="21/08/2023 - Auroville"
           dateInnerStyle={{
             background: '#ff6a5f',
             color: '#fff',
@@ -98,8 +98,8 @@ const TimelineSchedule = () => {
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#ff6a5f' }}>Visite d&apos;Oroville</h3>
-          {/* <img className="img-oroville" src={image} alt="img" /> */}
+          <h3 style={{ color: '#ff6a5f' }}>Visite d&apos;Auroville</h3>
+          {/* <img className="img-Auroville" src={image} alt="img" /> */}
           <p>
             Auroville est une communauté internationale située dans le Tamil
             Nadu, au sud de l&apos;Inde. Fondée en 1968 par Mirra Alfassa, mieux

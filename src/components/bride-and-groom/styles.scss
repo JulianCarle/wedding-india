@@ -1,0 +1,36 @@
+.BrideAndGroom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+
+  .img-us {
+    width: 350px;
+    height: 310px;
+    border-radius: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 32px 0;
+  }
+
+  .mrs {
+    transform: translateY(70px);
+    width: 120px;
+  }
+
+  .mr {
+    transform: translateY(-80px);
+    width: 120px;
+  }
+
+  p {
+    font-family: 'Alex Brush', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+  }
+}
