@@ -10,7 +10,6 @@ export const BrideAndGroom = () => {
   return (
     <div className="BrideAndGroom">
       <img className="mrs" src={mrs} alt="img" />
-
       <img className="img-us" src={aurelia} alt="img" />
       <p>Aurélia</p>
       <p className="nm">&</p>

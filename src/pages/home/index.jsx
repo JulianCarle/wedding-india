@@ -1,7 +1,7 @@
 import React from 'react';
 import BrideAndGroom from '../../components/bride-and-groom';
 import Counter from '../../components/counter';
-import ImageSlider from '../../components/imageSlider';
+import ImageSlider from '../../components/home-slider-img';
 import Resume from '../../components/resume';
 import './styles.scss';
 

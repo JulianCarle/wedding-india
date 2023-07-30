@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  // BsFillArrowThroughHeartFill,
-  BsFillSuitHeartFill
-} from 'react-icons/bs';
+import { BsFillSuitHeartFill } from 'react-icons/bs';
 import { FaUserGraduate } from 'react-icons/fa';
 import {
   GiBigDiamondRing,
@@ -97,43 +94,11 @@ export const TimelinePhotos = () => {
           icon={<GiCherish />}
         >
           <img src={img5} alt="img" />
-          <h4 className="vertical-timeline-element-subtitle">Mairie de Chilly-Mazarin</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Mairie de Chilly-Mazarin
+          </h4>
           <p>Nous nous sommes dit oui! Officiellement mariés!</p>
         </VerticalTimelineElement>
-
-        {/* <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<BsFillArrowThroughHeartFill />}
-        >
-          <img src={img5} alt="img" /> */}
-
-        {/* <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p> */}
-        {/* </VerticalTimelineElement> */}
-
-        {/* <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<BsFillArrowThroughHeartFill />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          icon={<BsFillArrowThroughHeartFill />}
-        /> */}
       </VerticalTimeline>
     </div>
   );

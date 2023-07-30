@@ -1,6 +1,9 @@
 .timeline-photos {
   font-family: 'Playfair Display' !important;
 
+  .vertical-timeline {
+    padding: 0;
+  }
   .vertical-timeline-element-content {
     display: flex;
     flex-direction: column;

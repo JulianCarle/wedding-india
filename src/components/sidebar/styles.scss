@@ -20,16 +20,14 @@
   border-bottom: 1px;
 
   .image-title-site {
-    min-width: 200px;
-    opacity: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 56px;
   }
-  
+
   .image-title-site img {
-    position: absolute;
-    left: 8px;
-    top: 0px;
     height: 80px;
-    width: 200px;
   }
 
   .menu-bars {
@@ -65,8 +63,7 @@
   }
 
   .image-title-site-active img {
-    min-height: 11vh;
-    width: 200px;
+    height: 80px;
   }
   .close-button {
     color: #000;

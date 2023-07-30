@@ -6,8 +6,7 @@
 }
 
 .img-convenience {
-  width: 600px;
-  height: 400px;
+  width: 100vw;
   margin-bottom: 32px;
   border-radius: 8px;
 }
@@ -46,4 +45,10 @@
 .text {
   word-wrap: break-word;
   margin: 16px 0;
+}
+
+.phone-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

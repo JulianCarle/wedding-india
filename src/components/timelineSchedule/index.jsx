@@ -24,10 +24,13 @@ const TimelineSchedule = () => {
         >
           <h3 style={{ color: '#ff8902' }}>Let&apos;s party !!!</h3>
           <p>
-            Soirée à la villa à partir de 19h afin de nous retrouver avant la
+            Soirée à la villa à partir de 19h00 afin de nous retrouver avant la
             réception et tous nous rencontrer.
           </p>
-          <p>Comment s&apos;habiller ? Contexte informel, comme vous voulez.</p>
+          <p>
+            Comment s&apos;habiller ? Contexte informel, comme vous le
+            souhaitez.
+          </p>
         </TimelineItem>
         <TimelineItem
           key="002"
@@ -62,7 +65,9 @@ const TimelineSchedule = () => {
           <p>
             Point de départ: l&apos;Église Notre-Dame Des Anges de Pondicherry
           </p>
-          <p>Les invités ont la possibilité de venir par leurs propres moyens</p>
+          <p>
+            Les invités ont la possibilité de venir par leurs propres moyens
+          </p>
           <p className="title-timeline">
             16h30 : Accueil des invités au K Resort
           </p>
@@ -78,10 +83,13 @@ const TimelineSchedule = () => {
           <p className="title-timeline">
             18h00: Cocktail / début de la réception.
           </p>
+          <p className="title-timeline">19h30: Entrée des mariés</p>
+          <p className="title-timeline">20h00: Dîner</p>
+          <p className="title-timeline">23h00: Wedding cake</p>
         </TimelineItem>
         <TimelineItem
           key="003"
-          dateText="21/08/2023 - Brunch"
+          dateText="22/08/2023 - Brunch"
           dateInnerStyle={{
             background: '#0055a4',
             color: '#fff',
@@ -95,14 +103,13 @@ const TimelineSchedule = () => {
             boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
           }}
         >
-          <h3 style={{ color: '#0055a4' }}>Visite</h3>
+          <h3 style={{ color: '#0055a4' }}>Brunch au K Resort</h3>
 
           <p>
-            Est incididunt sint eu minim dolore mollit velit velit commodo ex
-            nulla exercitation. Veniam velit adipisicing anim excepteur nostrud
-            magna nostrud aliqua dolor. Sunt aute est duis ut nulla officia
-            irure reprehenderit laborum fugiat dolore in elit. Adipisicing do
-            qui duis Lorem est.
+            Lendemain de la réception. Nous allons nous retrouver autour
+            d&apos;un brunch, suivi d&apos;activités accessibles à tous,
+            tout au long de la journée (prévoyez vos maillots de bains et des
+            affaires de sport)
           </p>
         </TimelineItem>
         <TimelineItem
@@ -122,7 +129,6 @@ const TimelineSchedule = () => {
           }}
         >
           <h3 style={{ color: '#ff6a5f' }}>Visite d&apos;Auroville</h3>
-          {/* <img className="img-Auroville" src={image} alt="img" /> */}
           <p>
             Auroville est une communauté internationale située dans le Tamil
             Nadu, au sud de l&apos;Inde. Fondée en 1968 par Mirra Alfassa, mieux

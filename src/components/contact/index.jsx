@@ -1,4 +1,5 @@
 import React from 'react';
+import { FcPhoneAndroid } from 'react-icons/fc';
 import './styles.scss';
 
 const Contact = ({ firstName, image, phone, ties }) => {
@@ -9,7 +10,11 @@ const Contact = ({ firstName, image, phone, ties }) => {
         <div className="container-infos">
           <div className="text">{`${firstName}`}</div>
           <div className="text">{ties}</div>
-          <div className="text">{phone}</div>
+          <div className="text phone-number">
+            <FcPhoneAndroid />
+            &nbsp;&nbsp;
+            {phone}
+          </div>
         </div>
       </div>
     </div>
