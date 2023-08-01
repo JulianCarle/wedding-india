@@ -52,6 +52,6 @@ export const fr = {
   notFound: {
     link1: '1. Cliquez-ici pour accéder au questionnaire d\'informations du mariage (premier formulaire)',
     link2: '2. Cliquez-ici pour accéder au questionnaire d\'informations sur votre voyage (second formulaire)',
-    notExist: 'Cette page n\'existe pas: '
+    notExist: 'Cette page n\'existe pas'
   }
 };

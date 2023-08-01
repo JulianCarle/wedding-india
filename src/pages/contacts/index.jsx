@@ -30,7 +30,7 @@ export const ContactsPage = () => {
         phone="+336 77 49 48 94"
         ties="(Frère d'Aurélia)"
       />
-      <div className="separator-line-one"></div>
+      <div className="separator-line-two"></div>
 
       <Contact
         firstName="Alice"
@@ -38,14 +38,14 @@ export const ContactsPage = () => {
         phone="+336 81 82 41 25"
         ties="(Maman d'Aurélia)"
       />
-      <div className="separator-line-two"></div>
+      <div className="separator-line-one"></div>
       <Contact
         firstName="Alida"
         image={alida}
         phone="+337 60 51 36 59"
         ties="(Tata d'Aurélia)"
       />
-      <div className="separator-line-one"></div>
+      <div className="separator-line-two"></div>
       <Contact
         firstName="Agash"
         image={agash}

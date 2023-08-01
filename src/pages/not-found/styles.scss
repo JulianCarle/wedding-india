@@ -1,4 +1,4 @@
-.container-notFound {
+.container-not-found {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -7,9 +7,9 @@
   width: 100%;
   padding: 10px;
 
-  a {
+  p {
+    font-size: 24px;
     color: rgb(207, 124, 0);
     font-style: italic;
-    font-size: large;
   }
 }

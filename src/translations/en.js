@@ -52,6 +52,6 @@ export const en = {
   notFound: {
     link1: '1. Click here to access the wedding information form (first form)',
     link2: '2. Click here to access the wedding travel form (second form)',
-    notExist: 'This page does not exist: '
+    notExist: 'This page does not exist'
   }
 };

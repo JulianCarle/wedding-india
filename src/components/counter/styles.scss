@@ -1,11 +1,13 @@
 .counter-container {
   width: 80%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   margin: auto;
 
   .date-counter {
+    width: 300px;
     margin: unset;
     margin-top: 56px;
     font-size: 40px;
@@ -18,6 +20,7 @@
   }
 
   .adresse {
+    width: 300px;
     margin-bottom: 32px;
   }
 
@@ -28,7 +31,6 @@
     height: 112px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 
     p {

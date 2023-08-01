@@ -6,11 +6,9 @@ const NotFoundPage = () => {
   const { translationTexts } = useContext(LanguageContext);
 
   return (
-    <div className="container-notFound">
+    <div className="container-not-found">
+      <p>404</p>
       <p>{translationTexts.notFound.notExist}</p>
-      <a href="/#/guests-form">{translationTexts.notFound.link1}</a>
-      <br/><br/>
-      <a href="/#/travel-form">{translationTexts.notFound.link2}</a>
     </div>
   );
 };
