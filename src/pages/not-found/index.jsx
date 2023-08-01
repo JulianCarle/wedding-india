@@ -7,7 +7,7 @@ const NotFoundPage = () => {
 
   return (
     <div className="container-not-found">
-      <p>404</p>
+      <p className='p404'>404</p>
       <p>{translationTexts.notFound.notExist}</p>
     </div>
   );
