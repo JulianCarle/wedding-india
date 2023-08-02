@@ -86,7 +86,14 @@ function Sidebar() {
           </div>
           {links}
           <div className="image-title-site-active">
-            <img src={titleSite} alt="title" />
+            <img
+              src={titleSite}
+              onClick={() => {
+                handleScrollToTop();
+                onNavigateHandler('/');
+              }}
+              alt="title"
+            />
           </div>
         </div>
       </div>
