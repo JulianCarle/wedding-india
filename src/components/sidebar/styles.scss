@@ -10,6 +10,8 @@
   top: 0%;
   background-color: #fff;
   width: 100%;
+  min-width: 200px;
+
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   
   display: flex;
@@ -97,14 +99,6 @@
         background-color: rgb(245, 245, 245);
         color: #000;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .sidebar-container {
-    .image-title-site img {
-      visibility: hidden;
     }
   }
 }

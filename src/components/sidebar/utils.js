@@ -12,8 +12,8 @@ export const SidebarData = [
     label: 'PROGRAMME'
   },
   {
-    value: '/commodités',
-    label: 'COMMODITÉS'
+    value: '/infos-pratiques',
+    label: 'INFOS PRATIQUES'
   },
   {
     value: '/RSVP',

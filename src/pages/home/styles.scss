@@ -5,7 +5,6 @@
 .block-white,
 .block-grey {
   display: flex;
-  height: 830px; ////////////////////////////////////////////
 }
 
 .block-grey {
@@ -18,6 +17,7 @@
 
 .bride-and-groom {
   height: 1100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 
 .resume {

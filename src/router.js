@@ -27,7 +27,7 @@ const Router = () => {
       />
 
       <Route
-        path="/commodités"
+        path="/infos-pratiques"
         element={screenWidth < 600 ? <ConveniencesPage /> : <WarningScreenSize />}
       />
       <Route

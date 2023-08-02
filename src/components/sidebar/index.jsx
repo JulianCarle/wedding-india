@@ -68,7 +68,10 @@ function Sidebar() {
   return (
     <div ref={nav} className="sidebar">
       <div
-        onClick={() => onNavigateHandler('/accueil')}
+        onClick={() => {
+          handleScrollToTop();
+          onNavigateHandler('/accueil');
+        }}
         className="image-title-site"
       >
         <img src={titleSite} alt="title" />

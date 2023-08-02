@@ -10,12 +10,8 @@ import TajMahal from '../../images/home/Taj_Mahal.jpg';
 
 import './styles.scss';
 
-const images = [
-  TajMahal,
-  us,
-  invitation
-  // 'https://media.istockphoto.com/id/919525342/fr/photo/taj-mahal-%C3%A0-agra-en-inde-%C3%A0-la-lumi%C3%A8re-de-la-pleine-lune.jpg?s=612x612&w=0&k=20&c=ElPChNdizuPb8P5v3z5mzftsNEAQ40ZuyfNYcOFHxB4=',
-];
+const images = [TajMahal, us, invitation];
+
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 

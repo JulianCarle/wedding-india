@@ -3,6 +3,7 @@ import Convenience from '../../components/convenience';
 import change from '../../images/conveniences/change.png';
 import home from '../../images/conveniences/home.jpg';
 import hospital from '../../images/conveniences/hopital.png';
+import MAEA from '../../images/conveniences/MAEA.png';
 import mall from '../../images/conveniences/mall.png';
 import nehruStreet from '../../images/conveniences/nehruStreet.png';
 import pothys from '../../images/conveniences/pothys.png';
@@ -10,11 +11,18 @@ import pothys from '../../images/conveniences/pothys.png';
 const ConveniencesPage = () => {
   return (
     <div className="margin130">
-      <h2 className="title-page">Adresses</h2>
+      <h2 className="title-page">Infos pratiques</h2>
 
       <p className="description-text">
-        Adresses utiles durant votre séjour à Pondicherry
+        Informations et adresses utiles durant votre séjour à Pondicherry
       </p>
+      <Convenience
+        title="Informations sur la legislation indienne"
+        linkLaw="https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/inde/#complements"
+        image={MAEA}
+      />
+      <div className="separator-line-two"></div>
+
       <Convenience
         title="Notre adresse"
         adresse="37, Tippu Sahib Street, MG Road Area, Puducherry, 605001, Inde"

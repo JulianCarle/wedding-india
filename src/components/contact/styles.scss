@@ -38,8 +38,13 @@
   }
   & > a {
     text-decoration: none;
-    color: #000;
+    color: #3d9e3d;
+    margin-top: 0;
   }
+}
+.title-text {
+  color: rgb(255, 163, 26);
+  font-weight: 600;
 }
 
 .text {

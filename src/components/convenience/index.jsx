@@ -1,14 +1,28 @@
 import React from 'react';
 
-const Convenience = ({ title, adresse, link, image }) => {
+const Convenience = ({ title, adresse, link, linkLaw, image }) => {
   return (
     <div className="container-convenience">
       <img className="img-convenience" src={image} alt="img" />
       <div className="box">
         <div className="container-infos">
-          <div className="text">{title}</div>
-          <div className="text">{adresse}</div>
-          <a href={link} className="text">{`Lien Google Maps:  ${link}`}</a>
+          <div className="title-text">{title}</div>
+          {link ? (
+            <>
+              <div className="text">{adresse}</div>
+              <p>Lien Google Maps:</p>
+              <a href={link} className="text">
+                ${link}
+              </a>
+            </>
+          ) : (
+            <>
+              <p>Lien du site:</p>
+              <a href={linkLaw} className="text">
+                {linkLaw}
+              </a>
+            </>
+          )}
         </div>
       </div>
     </div>
