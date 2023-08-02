@@ -70,7 +70,7 @@ function Sidebar() {
       <div
         onClick={() => {
           handleScrollToTop();
-          onNavigateHandler('/accueil');
+          onNavigateHandler('/');
         }}
         className="image-title-site"
       >

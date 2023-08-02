@@ -18,7 +18,7 @@ const Router = () => {
   return (
     <Routes>
       <Route
-        path="/accueil"
+        path="/"
         element={screenWidth < 600 ? <HomePage /> : <WarningScreenSize />}
       />
       <Route

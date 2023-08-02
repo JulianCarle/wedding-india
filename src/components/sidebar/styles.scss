@@ -1,32 +1,23 @@
-.sidebar.scrollDown{
+.sidebar.scrollDown {
   height: 0;
   overflow: hidden;
   transition: height 1s;
 }
 
 .sidebar {
+  width: 100vw;
   z-index: 3;
   position: fixed;
   top: 0%;
   background-color: #fff;
-  width: 100%;
-  min-width: 200px;
-
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   display: flex;
   height: 80px;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px;
-
-  .image-title-site {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    margin-left: 56px;
-  }
 
   .image-title-site img {
     height: 80px;

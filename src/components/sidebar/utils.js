@@ -1,6 +1,6 @@
 export const SidebarData = [
   {
-    value: '/accueil',
+    value: '/',
     label: 'ACCUEIL'
   },
   {

@@ -5,9 +5,7 @@ import bottomFlowers from '../../images/home/line_bottom_flowers.png';
 import topFlowers from '../../images/home/line_top_flowers.png';
 import us from '../../images/home/slider_1.jpeg';
 import invitation from '../../images/home/slider_2.jpeg';
-
 import TajMahal from '../../images/home/Taj_Mahal.jpg';
-
 import './styles.scss';
 
 const images = [TajMahal, us, invitation];
@@ -78,6 +76,9 @@ const ImageSlider = () => {
               data-aos-delay="3000"
               src={bottomFlowers}
               alt="img-bottom-flowers"
+              onError={(e) => {
+                console.error('Error loading bottomFlowers image:', e);
+              }}
             />
           </div>
         )}

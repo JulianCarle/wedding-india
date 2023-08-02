@@ -4,17 +4,17 @@ import './styles.scss';
 
 const TimelineSchedule = () => {
   return (
-    <div className="container-timeline">
+    <div>
       <Timeline lineColor={'#ddd'}>
         <TimelineItem
-          key="001"
+          key="000"
           dateText="18/08/2023 – Soirée retrouvailles"
           dateInnerStyle={{
             background: '#ff8902',
             color: '#fff',
             fontSize: 16
           }}
-          style={{ color: '#ff8902', zIndex: 2, marginLeft: 1 }}
+          style={{ color: '#ff8902', zIndex: 2, marginLeft: 1, paddingRight: 0 }}
           bodyContainerStyle={{
             background: '#fff',
             padding: '20px',
