@@ -29,13 +29,16 @@ const TimelineSchedule = () => {
             nous rencontrer.
           </p>
           <p>
+            Apportez des boissons et/ou des choses à grignoter.
+          </p>
+          <p>
             Comment s&apos;habiller ? Contexte informel, comme vous le
             souhaitez.
           </p>
         </TimelineItem>
         <TimelineItem
           key="001"
-          dateText="19/08/2023 – Rituel mariage"
+          dateText="20/08/2023 – Rituel mariage"
           dateInnerStyle={{
             background: 'rgb(0, 131, 102)',
             color: '#fff',
@@ -106,10 +109,10 @@ const TimelineSchedule = () => {
             vos plus belles tenues indiennes !
           </p>
           <p className="title-timeline">
-            18h00: Cocktail / début de la réception
+            18h30: Cocktail / début de la réception
           </p>
           <p className="title-timeline">19h30: Entrée des mariés</p>
-          <p className="title-timeline">20h00: Dîner</p>
+          <p className="title-timeline">20h30: Dîner</p>
           <p className="title-timeline">23h00: Wedding cake</p>
         </TimelineItem>
         <TimelineItem
@@ -129,13 +132,19 @@ const TimelineSchedule = () => {
           }}
         >
           <h3 style={{ color: '#0055a4' }}>Brunch au K Resort</h3>
-
           <p>
             Lendemain de la réception. Nous allons nous retrouver autour
             d&apos;un brunch, suivi d&apos;activités accessibles à tous, tout au
             long de la journée (prévoyez vos maillots de bains et des affaires
-            de sport)
+            de sport).
           </p>
+          <p className="title-timeline">Jusqu'à 10h00: Check-out des cottages</p>
+          <p>
+            Vos bagages pourront être déposés dans des pièces dédiées.
+          </p>
+          <p className="title-timeline">10h00-13h00: Brunch</p>
+          <p className="title-timeline">13h00-18h00: Chill and relax</p>
+          <p className="title-timeline">À partir de 18h00: Navettes retour pour Pondicherry</p>
         </TimelineItem>
         <TimelineItem
           key="004"
@@ -154,6 +163,7 @@ const TimelineSchedule = () => {
           }}
         >
           <h3 style={{ color: '#ff6a5f' }}>Visite d&apos;Auroville</h3>
+          <p className="title-timeline">Départ tôt le matin (heure exacte à venir), prévoir une demi journée</p>
           <p>
             Auroville est une communauté internationale située dans le Tamil
             Nadu, au sud de l&apos;Inde. Fondée en 1968 par Mirra Alfassa, aussi
@@ -187,6 +197,7 @@ const TimelineSchedule = () => {
           }}
         >
           <h3 style={{ color: 'rgb(80, 46, 0)' }}>Visite de Mahabalipuram</h3>
+          <p className="title-timeline">Départ tôt le matin (heure exacte à venir), prévoir une demi journée</p>
           <p>
             Mahabalipuram, également connu sous le nom de Mamallapuram, est une
             ville côtière historique située dans l&apos;État du Tamil Nadu, en

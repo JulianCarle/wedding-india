@@ -1,5 +1,6 @@
 import React from 'react';
 import Convenience from '../../components/convenience';
+import change2 from '../../images/conveniences/change2.jpg';
 import change from '../../images/conveniences/change.png';
 import home from '../../images/conveniences/home.jpg';
 import hospital from '../../images/conveniences/hopital.png';
@@ -21,7 +22,7 @@ const ConveniencesPage = () => {
         linkLaw="https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/inde/#complements"
         image={MAEA}
       />
-      <div className="separator-line-two"></div>
+      <div className="separator-line-one"></div>
 
       <Convenience
         title="Notre adresse"
@@ -29,12 +30,20 @@ const ConveniencesPage = () => {
         link="https://goo.gl/maps/QryHgxsUcTERxMys9"
         image={home}
       />
-      <div className="separator-line-one"></div>
+      <div className="separator-line-two"></div>
       <Convenience
         title="New Medical Centre - Multispeciality Hospital In Pondicherry"
         adresse="470, Mahatma Gandhi Rd, Chinnakadai, MG Road Area, Puducherry, 605001, Inde"
         link="https://goo.gl/maps/mdnPAz6J7NJM1KsM8"
         image={hospital}
+      />
+      <div className="separator-line-one"></div>
+      <Convenience
+        title="Bureaux de change"
+        adresse="195, Mission St, Heritage Town, Puducherry, 605001"
+        link="https://goo.gl/maps/fF5YojcHgqqpQTpW9"
+        text="Vous trouverez à cette adresse trois bureaux de change, prospectez les trois et choisissez le meilleur taux."
+        image={change2}
       />
       <div className="separator-line-two"></div>
       <Convenience
