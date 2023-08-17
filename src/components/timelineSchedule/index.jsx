@@ -28,9 +28,13 @@ const TimelineSchedule = () => {
             Soirée à la villa afin de nous retrouver avant la réception et tous
             nous rencontrer.
           </p>
+          <p>Un cuisinier italien viendra spécialement pour l&apos;ocasion afin de régaler vos papilles 
+            gustatives avec des produits frais et BIO.</p>
           <p>
-            Apportez des boissons et/ou des choses à grignoter.
+          <b>Apportez des boissons</b> et/ou des choses à grignoter.
           </p>
+          <p><b>Aller:</b> Par vos propres moyens (TukTuk ou auto, taxis, scooters, Uber etc...).</p>
+          <p><b>Retour:</b> Des navettes seront mises à votre disposition toutes les heures à partir de 00h00. Vous pourrez évidemment rentrer par vos propres moyens.</p>
           <p>
             Comment s&apos;habiller ? Contexte informel, comme vous le
             souhaitez.
