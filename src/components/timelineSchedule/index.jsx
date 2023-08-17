@@ -28,13 +28,16 @@ const TimelineSchedule = () => {
             Soirée à la villa afin de nous retrouver avant la réception et tous
             nous rencontrer.
           </p>
+          <p>Adresse: SHASUN ENTERPRISES LLP, ECR Road, Boomiyapalayam village, Vanur, Taluk, Puducherry, 605104. 
+            (sur waze "SHASUN ENTERPRISES LLP" suffit)</p>
           <p>Un cuisinier italien viendra spécialement pour l&apos;ocasion afin de régaler vos papilles 
             gustatives avec des produits frais et BIO.</p>
           <p>
           <b>Apportez des boissons</b> et/ou des choses à grignoter.
           </p>
           <p><b>Aller:</b> Par vos propres moyens (TukTuk ou auto, taxis, scooters, Uber etc...).</p>
-          <p><b>Retour:</b> Des navettes seront mises à votre disposition toutes les heures à partir de 00h00. Vous pourrez évidemment rentrer par vos propres moyens.</p>
+          <p><b>Retour:</b> Des navettes seront mises à votre disposition toutes les heures à partir de 00h00. 
+          Vous pourrez évidemment rentrer par vos propres moyens.</p>
           <p>
             Comment s&apos;habiller ? Contexte informel, comme vous le
             souhaitez.
