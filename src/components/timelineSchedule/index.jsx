@@ -60,11 +60,14 @@ const TimelineSchedule = () => {
           }}
         >
           <h3 style={{ color: 'rgb(0, 131, 102)' }}>Festivités</h3>
-          <p className="title-timeline">À partir de 15h00</p>
+          <p className="title-timeline">15h30-20h</p>
           <p>
             Célébration et rituel avant le mariage: hénné, danses, musiques et
             surprises...
           </p>
+          <p>Adresse: SHASUN ENTERPRISES LLP, ECR Road, Boomiyapalayam village, Vanur, Taluk, Puducherry, 605104. (sur waze "SHASUN ENTERPRISES LLP" suffit)</p>
+          <p className="title-timeline">16h00: Rituel suivi du hénné et autres activités</p>
+          <p className="title-timeline">18h00: Repas végétarien</p>
           <p>Comment s&apos;habiller ? Tenues indiennes basiques.</p>
         </TimelineItem>
         <TimelineItem
@@ -85,10 +88,10 @@ const TimelineSchedule = () => {
         >
           <h3 style={{ color: '#138808' }}>Jour J</h3>
           <p className="title-timeline">
-            13h00 : Cérémonie religieuse à l&apos;Église Notre-Dame Des Anges de
+            11h30 : Cérémonie religieuse à l&apos;Église Notre-Dame Des Anges de
             Pondicherry.
           </p>
-          <p>Veuillez arriver pour 12h30</p>
+          <p>Veuillez arriver pour 11h30.</p>
           <p>
             Comment s&apos;habiller ? De préférence à l&apos;occidental, étant
             donné que nous serons en costume et robe de mariée, mais vous pouvez
@@ -98,10 +101,10 @@ const TimelineSchedule = () => {
             16h00 (optionnel): Départ des navettes pour le K resort
           </p>
           <p>
-            Point de départ: l&apos;Église Notre-Dame Des Anges de Pondicherry
+            Point de départ: l&apos;Église Notre-Dame Des Anges de Pondicherry.
           </p>
           <p>
-            Les invités ont la possibilité de venir par leurs propres moyens
+            Les invités ont la possibilité de venir par leurs propres moyens.
           </p>
           <p className="title-timeline">
             16h30 : Accueil des invités au K Resort
@@ -113,7 +116,7 @@ const TimelineSchedule = () => {
           </p>
           <p>
             Comment s&apos;habiller ? C&apos;est l&apos;heure de nous montrer
-            vos plus belles tenues indiennes !
+            vos plus belles tenues indiennes!
           </p>
           <p className="title-timeline">
             18h30: Cocktail / début de la réception
