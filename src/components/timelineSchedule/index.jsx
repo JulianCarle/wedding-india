@@ -88,17 +88,20 @@ const TimelineSchedule = () => {
         >
           <h3 style={{ color: '#138808' }}>Jour J</h3>
           <p className="title-timeline">
-            11h30 : Cérémonie religieuse à l&apos;Église Notre-Dame Des Anges de
+            11h00 : Cérémonie religieuse à l&apos;Église Notre-Dame Des Anges de
             Pondicherry.
           </p>
-          <p>Veuillez arriver pour 11h30.</p>
+          <p>Veuillez arriver pour 10h45.</p>
           <p>
             Comment s&apos;habiller ? De préférence à l&apos;occidental, étant
             donné que nous serons en costume et robe de mariée, mais vous pouvez
             toujours vous faire un kiff et venir en tenue indienne.
           </p>
           <p className="title-timeline">
-            16h00 (optionnel): Départ des navettes pour le K resort
+            14h30 (optionnel): Départ des navettes pour le K resort
+          </p>
+          <p>
+            Horaires des navettes: 14h30 / 15h00 / 15h30
           </p>
           <p>
             Point de départ: l&apos;Église Notre-Dame Des Anges de Pondicherry.
@@ -107,21 +110,23 @@ const TimelineSchedule = () => {
             Les invités ont la possibilité de venir par leurs propres moyens.
           </p>
           <p className="title-timeline">
-            16h30 : Accueil des invités au K Resort
+            À partir de 15h00 : Accueil des invités au K Resort
           </p>
           <p>
-            Check-in des cottages: vous aurez un peu de temps pour récupérer vos
-            clés, déposer vos affaires, vous raffraîchir et vous préparer dans
-            votre cottage dans lequel vous passerez la nuit.
+            Check-in des cottages: à votre arrivée, dirigez vous vers la réception, un cottage vous sera attribué. 
+            Vous pourrez y déposer vos affaires, vous rafraîchir, vous préparer et éventuellement profiter du Resort jusqu'au cocktail. Prenez votre <b>PASSEPORT</b>.
           </p>
           <p>
             Comment s&apos;habiller ? C&apos;est l&apos;heure de nous montrer
             vos plus belles tenues indiennes!
           </p>
+          <p>
+            Que ramener ? Vous passer la nuit sur place, prévoyez des affaires de rechange pour le lendemain. N'oubliez pas votre <b>MAILLOT DE BAINS</b>.
+          </p>
           <p className="title-timeline">
             18h30: Cocktail / début de la réception
           </p>
-          <p className="title-timeline">19h30: Entrée des mariés</p>
+          <p className="title-timeline">19h00: Entrée des mariés</p>
           <p className="title-timeline">20h30: Dîner</p>
           <p className="title-timeline">23h00: Wedding cake</p>
         </TimelineItem>
